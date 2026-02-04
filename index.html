@@ -1,1 +1,49 @@
-<!-- Pause Ad Simulator -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pause Ad Simulator</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CTV Pause Ad Simulator</h1>
+
+  <!-- Controls -->
+  <div class="controls">
+    <label for="adType">Pause Ad Type:</label>
+    <select id="adType">
+      <option value="static">Static Image</option>
+      <option value="brand">Branded Slate</option>
+      <option value="cta">CTA Overlay</option>
+    </select>
+
+    <button id="pauseBtn">Pause Content</button>
+    <button id="resumeBtn">Resume Content</button>
+  </div>
+
+  <!-- Video Container -->
+  <div class="video-container">
+
+    <!-- Fake Video -->
+    <div class="video-player">
+      <span>🎬 Video Playing...</span>
+    </div>
+
+    <!-- Pause Ad Overlay -->
+    <div class="pause-ad hidden" id="pauseAd">
+      <div class="ad-content">
+        <span id="adText">PAUSE AD</span>
+        <p>Ad will disappear on resume</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
