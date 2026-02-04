@@ -1,0 +1,1 @@
+// Pause Ad Simulator logic
