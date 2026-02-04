@@ -1,1 +1,5 @@
-/* Styles for Pause Ad Simulator */
+#status {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
