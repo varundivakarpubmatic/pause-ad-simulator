@@ -47,3 +47,20 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<div class="controls">
+  <button onclick="pauseContent()">Pause</button>
+  <button onclick="resumeContent()">Resume</button>
+
+  <label>
+    Pause Ad Delay:
+    <select id="pauseDelay">
+      <option value="5000">5s</option>
+      <option value="10000" selected>10s</option>
+      <option value="15000">15s</option>
+    </select>
+  </label>
+</div>
+
+<p id="status">Status: Playing</p>
+
